@@ -1,0 +1,160 @@
+CT1
+OID1
+A03
+Oyako Don
+10.0
+VD1
+FOOD
+1
+TakeAway
+2023/12/11 23:14:12
+Preparing
+-
+F
+F
+-
+
+CT1
+OID2
+A03
+Oyako Don
+10.0
+VD1
+FOOD
+1
+Dine In
+2023/12/11 23:14:21
+Preparing
+-
+F
+F
+-
+
+CT1
+OID3
+A04
+Green Tea (Hot)
+3.0
+VD1
+DRINKS
+1
+Delivery
+2023/12/11 23:14:32
+Ready
+Delivered
+F
+F
+RN1
+
+CT2
+OID4
+B04
+Mushroom Soup
+3.0
+VD2
+FOOD
+1
+Dine In
+2023/12/11 23:16:34
+Preparing
+-
+F
+F
+-
+
+CT2
+OID5
+B03
+Risotto
+10.0
+VD2
+FOOD
+1
+TakeAway
+2023/12/11 23:16:43
+Ready
+-
+F
+F
+-
+
+CT2
+OID6
+B03
+Risotto
+10.0
+VD2
+FOOD
+1
+Delivery
+2023/12/11 23:17:03
+Ready
+Delivered
+F
+F
+RN2
+
+CT2
+OID7
+C03
+Hokkien Mee
+8.9
+VD3
+FOOD
+1
+Dine In
+2023/12/11 23:17:19
+Ready
+-
+F
+F
+-
+
+CT5
+OID8
+C02
+Oolong Tea
+2.0
+VD3
+DRINKS
+1
+TakeAway
+2023/12/11 23:19:43
+Ready
+-
+F
+F
+-
+
+CT5
+OID9
+A02
+Katsu Don
+10.0
+VD1
+FOOD
+1
+Delivery
+2023/12/11 23:20:16
+Ready
+-
+F
+F
+-
+
+CT5
+OID10
+D03
+Baklava
+11.0
+VD4
+FOOD
+1
+TakeAway
+2023/12/11 23:20:51
+Preparing
+-
+F
+F
+-
+

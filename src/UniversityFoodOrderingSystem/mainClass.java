@@ -1,0 +1,73 @@
+package UniversityFoodOrderingSystem;
+
+import UniversityFoodOrderingSystem.FileIO.DataIO;
+import UniversityFoodOrderingSystem.Model.User;
+import UniversityFoodOrderingSystem.Page.*;
+
+public class mainClass {
+    public static userLogin loginModule;
+    public static customerDashboard customerDashboardPage;
+    public static vendorDashboard vendorDashboardPage;
+    public static runnerDashboard runnerDashboardPage;
+    public static adminDashboard adminDashboardPage;
+    public static userRegistration userRegistrationPage;
+    public static manageVendorMenu manageVendorMenuPage;
+    public static addFoodItemPage addFoodItemMenuPage;
+    public static customerViewMenu customerViewMenuPage;
+    public static modifyUser modifyUserPage;
+    public static modifyVendorMenuItem modifyVendorMenuItemPage;
+    public static orderModuleMainPage orderModuleMenu;
+    public static orderViewCart orderViewCartPage;
+    public static orderHistory orderHistoryPage;
+    public static vendorManageOrder vendorManageOrderPage;
+    public static topUpCustomer topUpCustomerPage;
+    public static User loginUser = null;
+    public static String uid;
+    public static String foodItemID;
+    public static vendorOrderHistory vendorOrderHistoryPage;
+    public static VendorNotification VendorNotificationPage;
+    public static customerNotification customerNotificationPage;
+    public static customerTransactionHistory customerTransactionHistoryPage;
+    public static runnerViewTask runnerViewTaskPage;
+    public static noRunner noRunnerPage;
+    public static runnerNotification runnerNotificationPage;
+    public static runnerTaskHistory runnerTaskHistoryPage;
+    public static customerReviewVendor customerReviewVendorPage;
+    public static customerReviewRunner customerReviewRunnerPage;
+    public static viewCustomerReview readCustomerReviewPage;
+    public static vendorViewOwnReview vendorViewOwnReviewPage;
+    public static runnerViewOwnReview runnerViewOwnReviewPage;
+    public static void main(String[] args){
+        DataIO.initialiseUserFile();
+        DataIO.readFile();
+        loginModule = new userLogin();
+        customerDashboardPage = new customerDashboard();
+        vendorDashboardPage = new vendorDashboard();
+        runnerDashboardPage = new runnerDashboard();
+        adminDashboardPage = new adminDashboard();
+        userRegistrationPage = new userRegistration();
+        manageVendorMenuPage = new manageVendorMenu();
+        addFoodItemMenuPage = new addFoodItemPage();
+        customerViewMenuPage = new customerViewMenu();
+        modifyUserPage = new modifyUser();
+        modifyVendorMenuItemPage = new modifyVendorMenuItem();
+        orderModuleMenu = new orderModuleMainPage();
+        orderViewCartPage = new orderViewCart();
+        orderHistoryPage = new orderHistory();
+        vendorManageOrderPage = new vendorManageOrder();
+        vendorOrderHistoryPage = new vendorOrderHistory();
+        VendorNotificationPage = new VendorNotification();
+        customerNotificationPage = new customerNotification();
+        topUpCustomerPage = new topUpCustomer();
+        customerTransactionHistoryPage = new customerTransactionHistory();
+        runnerViewTaskPage = new runnerViewTask();
+        noRunnerPage = new noRunner();
+        runnerNotificationPage = new runnerNotification();
+        runnerTaskHistoryPage = new runnerTaskHistory();
+        customerReviewVendorPage = new customerReviewVendor();
+        customerReviewRunnerPage = new customerReviewRunner();
+        readCustomerReviewPage = new viewCustomerReview();
+        vendorViewOwnReviewPage = new vendorViewOwnReview();
+        runnerViewOwnReviewPage = new runnerViewOwnReview();
+    }
+}

@@ -1,0 +1,145 @@
+NID1
+2023/12/11 23:14:12
+[OID1] Order has been submitted by CT1
+VD1
+
+NID2
+2023/12/11 23:14:21
+[OID2] Order has been submitted by CT1
+VD1
+
+NID3
+2023/12/11 23:14:32
+[OID3] Order has been submitted by CT1
+VD1
+
+NID4
+2023/12/11 23:14:56
+[OID1] Order has been accepted by VD1
+CT1
+
+NID5
+2023/12/11 23:14:58
+[OID2] Order has been accepted by VD1
+CT1
+
+NID6
+2023/12/11 23:15:01
+[OID3] Order has been accepted by VD1
+CT1
+
+NID7
+2023/12/11 23:15:05
+[OID3] Order is ready to be collected from VD1
+CT1
+
+NID8
+2023/12/11 23:16:07
+[RID1] An amount of RM 100 has been added to your balance.
+CT2
+
+NID9
+2023/12/11 23:16:14
+[RID2] An amount of RM 100 has been added to your balance.
+CT5
+
+NID10
+2023/12/11 23:16:34
+[OID4] Order has been submitted by CT2
+VD2
+
+NID11
+2023/12/11 23:16:43
+[OID5] Order has been submitted by CT2
+VD2
+
+NID12
+2023/12/11 23:17:03
+[OID6] Order has been submitted by CT2
+VD2
+
+NID13
+2023/12/11 23:17:19
+[OID7] Order has been submitted by CT2
+VD3
+
+NID14
+2023/12/11 23:17:31
+[OID4] Order has been accepted by VD2
+CT2
+
+NID15
+2023/12/11 23:17:35
+[OID5] Order is ready to be collected from VD2
+CT2
+
+NID17
+2023/12/11 23:17:37
+[OID5] Order has been accepted by VD2
+CT2
+
+NID18
+2023/12/11 23:17:38
+[OID5] Order is ready to be collected from VD2
+CT2
+
+NID20
+2023/12/11 23:17:41
+[OID6] Order has been accepted by VD2
+CT2
+
+NID21
+2023/12/11 23:17:43
+[OID6] Order is ready to be collected from VD2
+CT2
+
+NID23
+2023/12/11 23:18:41
+[OID7] Order has been accepted by VD3
+CT2
+
+NID24
+2023/12/11 23:18:42
+[OID7] Order is ready to be collected from VD3
+CT2
+
+NID16
+2023/12/11 23:19:43
+[OID8] Order has been submitted by CT5
+VD3
+
+NID19
+2023/12/11 23:20:16
+[OID9] Order has been submitted by CT5
+VD1
+
+NID22
+2023/12/11 23:20:51
+[OID10] Order has been submitted by CT5
+VD4
+
+NID26
+2023/12/11 23:21:58
+[OID8] Order has been accepted by VD3
+CT5
+
+NID27
+2023/12/11 23:22:00
+[OID8] Order is ready to be collected from VD3
+CT5
+
+NID29
+2023/12/11 23:22:14
+[OID9] Order has been accepted by VD1
+CT5
+
+NID30
+2023/12/11 23:22:16
+[OID9] Order is ready to be collected from VD1
+CT5
+
+NID32
+2023/12/11 23:22:33
+[OID10] Order has been accepted by VD4
+CT5
+
